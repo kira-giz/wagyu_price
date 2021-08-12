@@ -15,6 +15,10 @@ p {
   color: #fff;
 }
 
+.card {
+  border-radius: 0;
+}
+
 .content-width {
   max-width: 1200px;
   margin: 0 auto;
@@ -37,7 +41,7 @@ p {
 
 
 .submit-color {
-  background-color: #DE660D;
+  background-color: #17a2b8;
   color: white;
   opacity: 0.9;
   transition: all 0.4s;
