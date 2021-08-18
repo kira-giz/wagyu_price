@@ -5,7 +5,7 @@ $(function () {
   $(window).scroll(function () {
     // 40はヘッダーの高さ
     if ($(window).scrollTop() > 40) {
-      $pageTop.fadeIn(300);
+      $pageTop.fadeIn(200);
     } else {
       $pageTop.fadeOut();
     }
