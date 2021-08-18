@@ -1,5 +1,6 @@
 $(function () {
   $pageTop = $("#page-top");
+  // 初期描画で隠す
   $pageTop.hide();
   $(window).scroll(function () {
     // 40はヘッダーの高さ
@@ -10,7 +11,7 @@ $(function () {
     }
   });
   $pageTop.on("click", function () {
-    $("body,html").animate({ scrollTop: 0 }, 300);
+    $("body,html").animate({ scrollTop: 0 }, 200);
     // aタグのイベント無効
     return false;
   });
